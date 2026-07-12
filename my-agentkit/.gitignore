@@ -1,0 +1,67 @@
+# ===== Secrets / credentials =====
+secret/
+secrets/
+*.secret
+
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# AgentKit / Volcengine local config
+.agentkit/
+**/.agentkit/
+config.yaml
+config.yml
+credentials.json
+credentials.yaml
+credentials.yml
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+ENV/
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE / editor
+.vscode/
+.idea/
+.trae/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+#python
+python
+
+#first_agent
+agentkit.yaml
+
+# docker
+.dockerignore
+
+#gpt
+chatgpt-data

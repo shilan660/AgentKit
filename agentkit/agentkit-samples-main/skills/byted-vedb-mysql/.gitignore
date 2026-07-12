@@ -1,0 +1,5 @@
+/.trae
+/.ruff_cache
+/scripts/__pycache__
+/scripts/.env
+.DS_Store

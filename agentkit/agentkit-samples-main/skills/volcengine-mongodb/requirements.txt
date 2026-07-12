@@ -1,0 +1,5 @@
+# 火山引擎 MongoDB 运维助手工具依赖
+
+## Python 依赖包
+
+volcengine-python-sdk>=1.0.0
