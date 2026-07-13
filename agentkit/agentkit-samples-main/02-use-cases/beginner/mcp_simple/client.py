@@ -1,5 +1,5 @@
 import asyncio
-
+import os
 import httpx
 import requests
 from google.adk.cli.adk_web_server import CreateSessionRequest, RunAgentRequest
@@ -11,7 +11,7 @@ if __name__ == "__main__":
     user_id = "agentkit_user"
     session_id = "agentkit_session"
     base_url = "http://127.0.0.1:8000"
-    api_key = "agentkit test key"
+    api_key = os.getenv("AGENTKIT_API_KEY")
 
     # Step 1: create a session
     def create_session():
